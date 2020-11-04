@@ -3,3 +3,11 @@
 	background-size: cover;
 
 }
+
+/* For width smaller than 400px: */
+
+@media only screen and (min-width: 400px) {
+  #background {
+    background-image: url('../img/2.jpg');
+   }
+  }
